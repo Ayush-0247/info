@@ -6,11 +6,9 @@ export default function Skills() {
     { name: "React", level: 90 },
     { name: "Next.js", level: 85 },
     { name: "Node.js", level: 80 },
-    { name: "TypeScript", level: 85 },
+ 
     { name: "Python", level: 75 },
-    { name: "PostgreSQL", level: 70 },
-    { name: "AWS", level: 65 },
-    { name: "Docker", level: 70 },
+  
   ];
 
   return (

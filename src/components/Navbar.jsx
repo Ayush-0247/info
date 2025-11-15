@@ -7,7 +7,7 @@ export default function Navbar() {
   const closeMenu = () => setOpen(false);
 
   return (
-    <header className="fixed w-full top-0 bg-[#FFF7E9] text-[#2B2B2B] border-b z-50">
+    <header className="fixed w-full top-0 bg-[#ffffff] text-[#2B2B2B] border-b z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
         <Link to="/" className="text-lg font-semibold" onClick={closeMenu}>
