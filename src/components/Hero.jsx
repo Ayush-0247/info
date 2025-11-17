@@ -1,3 +1,5 @@
+import userImg from "../images/user.png";
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center px-6 lg:px-0 max-w-7xl mx-auto ">
@@ -6,7 +8,7 @@ export default function Hero() {
         {/* LEFT */}
         <div className="opacity-0 animate-fadeUp text-center md:text-left ">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gray-700">Ayush Raj</span>
+            Hi, I'm <span className="text-transparent bg-clip-text bg-red-700">Ayush Raj</span>
             <span className="block mt-2">Full-Stack Web Developer</span>
           </h1>
 
@@ -31,14 +33,16 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* RIGHT */}
-        <div className="flex justify-center opacity-0 animate-zoomIn ">
-          <img
-            src="https://th.bing.com/th/id/OIP.Mwc2uBDjxOBq1ECOb32gkgHaFT"
-            className="w-64 sm:w-80 md:w-[36rem] rounded-3xl shadow-xl shadow-gray-300"
-            alt="Developer Illustration"
-          />
-        </div>
+       {/* RIGHT */}
+<div className="flex justify-center opacity-0 animate-slideRightToLeft">
+  <img
+    src={userImg}
+   className=" h-130  w-110 rounded-3xl shadow-xl shadow-gray-300"
+  alt="Developer Illustration"
+
+  />
+</div>
+
 
       </div>
     </section>

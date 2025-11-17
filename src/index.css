@@ -29,9 +29,21 @@
   }
 }
 
-.animate-zoomIn {
-  animation: zoomIn 0.8s ease-out forwards;
+.animate-slideRightToLeft {
+  animation: slideRightToLeft 0.4s ease-out forwards;
 }
+
+@keyframes slideRightToLeft {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 @keyframes fadeUp {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0px); }
